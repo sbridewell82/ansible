@@ -1,5 +1,5 @@
 ---
-- name: "CreateFile"
+- name: "CreateUser"
   hosts: win
   tasks:
     - name: Create User
