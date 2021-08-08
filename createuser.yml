@@ -1,10 +1,10 @@
 ---
-- name: "CreateUser"
-  hosts: Win_Servers
+- name: "CreateFile"
+  hosts: win_servers
   tasks:
     - name: Create User
       win_user:
-       name: steven
+       name: joe
        password: subst@NTI@l
        state: present
        groups:
