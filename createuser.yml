@@ -1,0 +1,7 @@
+win_user:
+       name: steven
+       password: subst@NTI@l
+       state: present
+       groups:
+        - Users
+        - Administrators
