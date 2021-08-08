@@ -1,5 +1,6 @@
 ---
 - name: "CreateUser"
+  hosts: Win_Servers
   tasks:
     - name: Create User
       win_user:
