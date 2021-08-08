@@ -1,6 +1,6 @@
 ---
 - name: "CreateFile"
-  hosts: win_servers
+  hosts: all
   tasks:
     - name: Create User
       win_user:
